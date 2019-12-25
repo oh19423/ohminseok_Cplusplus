@@ -8,7 +8,7 @@ void solution(int num) {
 	}
 	sum -= data; data;
 
-	if(data % 2 == 0)
+	if (data % 2 == 0)
 		std::cout << data - (num - sum) << "/" << num - sum;
 	else
 		std::cout << num - sum << "/" << data - (num - sum);
